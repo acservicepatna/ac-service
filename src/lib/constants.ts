@@ -107,6 +107,8 @@ export const CONTACT_INFO = {
     instagramUsername: '@acservicepatna',
     facebook: 'https://www.facebook.com/acservicespatna',
     facebookUsername: 'acservicespatna',
+    youtube: 'https://www.youtube.com/@AcServicePatna',
+    youtubeUsername: '@AcServicePatna',
   },
   hours: {
     regular: 'Mon-Sun: 8:00 AM - 8:00 PM',

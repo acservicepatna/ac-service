@@ -23,15 +23,16 @@ import {
   Headphones,
   Instagram,
   Facebook,
+  Youtube,
 } from 'lucide-react';
 
 const AC_SERVICES = [
-  { name: 'AC Repair', href: '/services/repair', icon: Wrench },
-  { name: 'AC Maintenance', href: '/services/maintenance', icon: Shield },
-  { name: 'AC Installation', href: '/services/installation', icon: Home },
-  { name: 'AC Cleaning', href: '/services/cleaning', icon: Snowflake },
-  { name: 'Emergency Service', href: '/services/emergency', icon: PhoneCall },
-  { name: 'Gas Refilling', href: '/services/gas-refilling', icon: Snowflake },
+  { name: 'AC Repair', href: '/services/ac-repair-patna', icon: Wrench },
+  { name: 'AC Maintenance', href: '/services/ac-maintenance-patna', icon: Shield },
+  { name: 'AC Installation', href: '/services/ac-installation-patna', icon: Home },
+  { name: 'AC Cleaning', href: '/services/ac-cleaning-patna', icon: Snowflake },
+  { name: 'Emergency Service', href: '/services/emergency-ac-service-patna', icon: PhoneCall },
+  { name: 'Gas Refilling', href: '/services/ac-gas-refilling-patna', icon: Snowflake },
 ];
 
 const SERVICE_AREAS = [
@@ -206,6 +207,15 @@ export default function Footer({ className }: FooterProps) {
                     aria-label="Facebook"
                   >
                     <Facebook className="h-5 w-5 text-white" />
+                  </a>
+                  <a
+                    href={CONTACT_INFO.social.youtube}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center justify-center w-10 h-10 rounded-full bg-slate-700 hover:bg-red-600 transition-colors"
+                    aria-label="YouTube"
+                  >
+                    <Youtube className="h-5 w-5 text-white" />
                   </a>
                 </div>
               </div>
