@@ -56,7 +56,7 @@ const QUICK_LINKS = [
   { name: 'Book Service', href: '/booking' },
   { name: 'Our Team', href: '/about#team' },
   { name: 'Service Areas', href: '/services#areas' },
-  { name: 'Emergency', href: '/services/emergency' },
+  { name: 'Emergency', href: '/services/emergency-ac-service-patna' },
 ];
 
 const LEGAL_LINKS = [
@@ -407,6 +407,21 @@ export default function Footer({ className }: FooterProps) {
                 <span className="text-slate-400 text-xs">(500+ reviews)</span>
               </div>
             </div>
+          </div>
+
+          {/* Developer Credit */}
+          <div className="mt-4 pt-4 border-t border-slate-800 text-center">
+            <p className="text-xs text-slate-400">
+              Developed and Designed by{' '}
+              <a
+                href="https://debugdigital.in/"
+                target="_blank"
+                rel="dofollow"
+                className="text-blue-400 hover:text-blue-300 transition-colors font-medium"
+              >
+                Debug Digital
+              </a>
+            </p>
           </div>
         </div>
       </div>
