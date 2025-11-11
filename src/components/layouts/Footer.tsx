@@ -103,6 +103,15 @@ export default function Footer({ className }: FooterProps) {
             {/* Company Information */}
             <div className="lg:col-span-1">
               <div className="mb-4">
+                <Link href="/" className="inline-block mb-3">
+                  <Image
+                    src={APP_CONFIG.logo}
+                    alt={APP_CONFIG.name}
+                    width={100}
+                    height={100}
+                    className="h-16 w-auto object-contain brightness-0 invert"
+                  />
+                </Link>
                 <h2 className="text-xl font-bold text-blue-300 mb-2">
                   {APP_CONFIG.name}
                 </h2>

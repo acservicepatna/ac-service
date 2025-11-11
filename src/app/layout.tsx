@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     'geo.position': '25.5941;85.1376',
     ICBM: '25.5941, 85.1376',
     'contact:phone': '+91-7903735308',
-    'contact:email': 'info@acservicepatna.com',
+    'contact:email': 'contact.acservicepatna@gmail.com',
   },
 };
 

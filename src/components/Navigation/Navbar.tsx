@@ -71,23 +71,15 @@ export default function Navbar({ className, onBookingClick }: NavbarProps) {
       <nav className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link href="/" className="flex items-center space-x-3">
+          <Link href="/" className="flex items-center">
             <Image
               src={APP_CONFIG.logo}
               alt={APP_CONFIG.name}
-              width={48}
-              height={48}
-              className="w-12 h-12 object-contain"
+              width={120}
+              height={120}
+              className="h-14 w-auto object-contain"
               priority
             />
-            <div className="hidden sm:block">
-              <span className="text-xl font-bold text-gray-900">
-                {APP_CONFIG.name}
-              </span>
-              <span className="text-xs text-indigo-600 block -mt-1">
-                Professional AC Services
-              </span>
-            </div>
           </Link>
 
           {/* Desktop Navigation */}
@@ -141,7 +133,7 @@ export default function Navbar({ className, onBookingClick }: NavbarProps) {
                 >
                   <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
                 </motion.svg>
-                <span className="text-sm font-semibold">+91 98351 23456</span>
+                <span className="text-sm font-semibold">{CONTACT_INFO.phone.display}</span>
               </motion.button>
             </div>
 

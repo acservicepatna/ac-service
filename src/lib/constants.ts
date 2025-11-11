@@ -98,9 +98,9 @@ export const CONTACT_INFO = {
     display: '7903735308',
   },
   email: {
-    primary: 'info@acservicepatna.com',
-    support: 'support@acservicepatna.com',
-    emergency: 'emergency@acservicepatna.com',
+    primary: 'contact.acservicepatna@gmail.com',
+    support: 'contact.acservicepatna@gmail.com',
+    emergency: 'contact.acservicepatna@gmail.com',
   },
   social: {
     instagram: 'https://www.instagram.com/acservicepatna',
