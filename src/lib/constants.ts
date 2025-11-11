@@ -3,11 +3,12 @@
  */
 
 export const APP_CONFIG = {
-  name: 'AC Servicing Pro',
+  name: 'AC Service Patna',
   description: 'Professional AC Servicing Solutions in Patna',
   version: '1.0.0',
-  author: 'AC Servicing Pro Team',
+  author: 'AC Service Patna Team',
   location: 'Patna, Bihar',
+  logo: '/logo.webp',
 } as const;
 
 export const ROUTES = {
@@ -91,14 +92,25 @@ export const PATNA_SERVICE_AREAS = [
 // Contact Information
 export const CONTACT_INFO = {
   phone: {
-    primary: '+91-9876543210',
-    emergency: '+91-8765432109',
-    whatsapp: '+91-9876543210',
+    primary: '+91-7903735308',
+    emergency: '+91-7903735308',
+    whatsapp: '+91-7903735308',
+    display: '7903735308',
   },
   email: {
-    primary: 'info@acservicingpro.com',
-    support: 'support@acservicingpro.com',
-    emergency: 'emergency@acservicingpro.com',
+    primary: 'info@acservicepatna.com',
+    support: 'support@acservicepatna.com',
+    emergency: 'emergency@acservicepatna.com',
+  },
+  social: {
+    instagram: 'https://www.instagram.com/acservicepatna',
+    instagramUsername: '@acservicepatna',
+    facebook: 'https://www.facebook.com/acservicespatna',
+    facebookUsername: 'acservicespatna',
+  },
+  hours: {
+    regular: 'Mon-Sun: 8:00 AM - 8:00 PM',
+    emergency: 'Emergency Services: 24/7',
   },
   address: {
     street: 'Shop No. 15, Ground Floor, Bailey Road',

@@ -2,6 +2,7 @@
 
 import * as React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import { motion } from 'framer-motion';
 import {
@@ -15,6 +16,7 @@ import { Sheet, SheetTrigger, SheetContent } from '@/components/ui/Sheet';
 import Button from '@/components/ui/Button';
 import MobileMenu from './MobileMenu';
 import { cn } from '@/lib/utils';
+import { APP_CONFIG, CONTACT_INFO } from '@/lib/constants';
 
 interface NavbarProps {
   className?: string;
@@ -44,7 +46,7 @@ export default function Navbar({ className, onBookingClick }: NavbarProps) {
   }, []);
 
   const handlePhoneCall = () => {
-    window.open('tel:+919835123456', '_self');
+    window.open(`tel:${CONTACT_INFO.phone.primary}`, '_self');
   };
 
   const handleBookingClick = () => {
@@ -69,27 +71,22 @@ export default function Navbar({ className, onBookingClick }: NavbarProps) {
       <nav className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link href="/" className="flex items-center space-x-2">
-            <div className="flex items-center justify-center w-10 h-10 bg-indigo-600 rounded-lg">
-              <svg
-                className="w-6 h-6 text-white"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"
-                />
-              </svg>
-            </div>
+          <Link href="/" className="flex items-center space-x-3">
+            <Image
+              src={APP_CONFIG.logo}
+              alt={APP_CONFIG.name}
+              width={48}
+              height={48}
+              className="w-12 h-12 object-contain"
+              priority
+            />
             <div className="hidden sm:block">
               <span className="text-xl font-bold text-gray-900">
-                AC Servicing
+                {APP_CONFIG.name}
               </span>
-              <span className="text-sm text-indigo-600 block -mt-1">Pro</span>
+              <span className="text-xs text-indigo-600 block -mt-1">
+                Professional AC Services
+              </span>
             </div>
           </Link>
 

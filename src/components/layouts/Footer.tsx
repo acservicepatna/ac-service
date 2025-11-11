@@ -2,17 +2,18 @@
 
 import * as React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import Button from '@/components/ui/Button';
 import { Badge } from '@/components/ui/Badge';
 import { Card } from '@/components/ui/Card';
 import { cn } from '@/lib/utils';
+import { APP_CONFIG, CONTACT_INFO } from '@/lib/constants';
 import {
   Phone,
   Mail,
   Clock,
   MapPin,
   Shield,
-  Users,
   Star,
   MessageCircle,
   Wrench,
@@ -20,24 +21,9 @@ import {
   Home,
   PhoneCall,
   Headphones,
+  Instagram,
+  Facebook,
 } from 'lucide-react';
-
-const COMPANY_INFO = {
-  name: 'AC Servicing Pro',
-  tagline: 'Professional AC Services in Patna',
-  description:
-    'Expert AC repair, maintenance, installation, and emergency services across Patna, Bihar. Trusted by 5000+ customers with 10+ years of experience.',
-  phone: {
-    main: '+91 98765 43210',
-    emergency: '+91 87654 32109',
-  },
-  email: 'info@acservicingpro.com',
-  address: 'Patna, Bihar, India',
-  hours: {
-    regular: 'Mon-Sat: 8:00 AM - 8:00 PM',
-    emergency: 'Emergency Services: 24/7',
-  },
-};
 
 const AC_SERVICES = [
   { name: 'AC Repair', href: '/services/repair', icon: Wrench },
@@ -88,18 +74,19 @@ export default function Footer({ className }: FooterProps) {
   const currentYear = new Date().getFullYear();
 
   const handleEmergencyCall = () => {
-    window.open(`tel:${COMPANY_INFO.phone.emergency}`, '_self');
+    window.open(`tel:${CONTACT_INFO.phone.emergency}`, '_self');
   };
 
   const handleWhatsApp = () => {
     const message = encodeURIComponent(
       'Hi, I need AC servicing. Can you help me?'
     );
-    window.open(`https://wa.me/919876543210?text=${message}`, '_blank');
+    const whatsappNumber = CONTACT_INFO.phone.whatsapp.replace(/\D/g, '');
+    window.open(`https://wa.me/${whatsappNumber}?text=${message}`, '_blank');
   };
 
   const handleCall = () => {
-    window.open(`tel:${COMPANY_INFO.phone.main}`, '_self');
+    window.open(`tel:${CONTACT_INFO.phone.primary}`, '_self');
   };
 
   return (
@@ -117,10 +104,10 @@ export default function Footer({ className }: FooterProps) {
             <div className="lg:col-span-1">
               <div className="mb-4">
                 <h2 className="text-xl font-bold text-blue-300 mb-2">
-                  {COMPANY_INFO.name}
+                  {APP_CONFIG.name}
                 </h2>
                 <p className="text-sm text-slate-300 mb-4">
-                  {COMPANY_INFO.description}
+                  {APP_CONFIG.description}
                 </p>
               </div>
 
@@ -131,7 +118,7 @@ export default function Footer({ className }: FooterProps) {
                   <div>
                     <p className="text-sm font-medium text-white">Main Number</p>
                     <p className="text-sm text-slate-300">
-                      {COMPANY_INFO.phone.main}
+                      {CONTACT_INFO.phone.primary}
                     </p>
                   </div>
                 </div>
@@ -143,7 +130,7 @@ export default function Footer({ className }: FooterProps) {
                       Emergency 24/7
                     </p>
                     <p className="text-sm text-slate-300">
-                      {COMPANY_INFO.phone.emergency}
+                      {CONTACT_INFO.phone.emergency}
                     </p>
                   </div>
                 </div>
@@ -153,7 +140,7 @@ export default function Footer({ className }: FooterProps) {
                   <div>
                     <p className="text-sm font-medium text-white">Email</p>
                     <p className="text-sm text-slate-300">
-                      {COMPANY_INFO.email}
+                      {CONTACT_INFO.email.primary}
                     </p>
                   </div>
                 </div>
@@ -163,10 +150,10 @@ export default function Footer({ className }: FooterProps) {
                   <div>
                     <p className="text-sm font-medium text-white">Business Hours</p>
                     <p className="text-xs text-slate-300">
-                      {COMPANY_INFO.hours.regular}
+                      {CONTACT_INFO.hours.regular}
                     </p>
                     <p className="text-xs text-red-400">
-                      {COMPANY_INFO.hours.emergency}
+                      {CONTACT_INFO.hours.emergency}
                     </p>
                   </div>
                 </div>
@@ -187,6 +174,31 @@ export default function Footer({ className }: FooterProps) {
                   <MessageCircle className="h-4 w-4 mr-2" />
                   WhatsApp
                 </Button>
+              </div>
+
+              {/* Social Media Links */}
+              <div className="mt-6">
+                <p className="text-sm font-medium text-white mb-3">Follow Us</p>
+                <div className="flex gap-3">
+                  <a
+                    href={CONTACT_INFO.social.instagram}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center justify-center w-10 h-10 rounded-full bg-slate-700 hover:bg-pink-600 transition-colors"
+                    aria-label="Instagram"
+                  >
+                    <Instagram className="h-5 w-5 text-white" />
+                  </a>
+                  <a
+                    href={CONTACT_INFO.social.facebook}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center justify-center w-10 h-10 rounded-full bg-slate-700 hover:bg-blue-600 transition-colors"
+                    aria-label="Facebook"
+                  >
+                    <Facebook className="h-5 w-5 text-white" />
+                  </a>
+                </div>
               </div>
             </div>
 
@@ -329,7 +341,7 @@ export default function Footer({ className }: FooterProps) {
                     className="bg-white text-red-600 hover:bg-red-50 font-semibold"
                   >
                     <PhoneCall className="h-4 w-4 mr-2" />
-                    Emergency: {COMPANY_INFO.phone.emergency}
+                    Emergency: {CONTACT_INFO.phone.emergency}
                   </Button>
                   <Button
                     onClick={handleWhatsApp}
@@ -352,7 +364,7 @@ export default function Footer({ className }: FooterProps) {
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <div className="flex flex-col md:flex-row items-center gap-4">
               <p className="text-sm">
-                © {currentYear} {COMPANY_INFO.name}. All rights reserved.
+                © {currentYear} {APP_CONFIG.name}. All rights reserved.
               </p>
               <div className="flex items-center gap-4 text-xs">
                 <span className="flex items-center gap-1">
