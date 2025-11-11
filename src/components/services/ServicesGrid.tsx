@@ -263,7 +263,7 @@ export default function ServicesGrid({
           <SearchX className="w-16 h-16 text-muted-foreground mb-4" />
           <h3 className="text-lg font-semibold mb-2">No Services Found</h3>
           <p className="text-muted-foreground mb-4 max-w-md">
-            We couldn't find any services matching your criteria. Try adjusting
+            We couldn&apos;t find any services matching your criteria. Try adjusting
             your filters or search terms.
           </p>
           <div className="flex gap-2">

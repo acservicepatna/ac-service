@@ -470,7 +470,7 @@ export function ContactCTA({ className, prefillService, prefillArea }: ContactCT
               Need AC Service Right Now?
             </h2>
             <p className="mt-4 text-lg text-indigo-100">
-              Don't let a broken AC ruin your comfort. Our expert technicians
+              Don&apos;t let a broken AC ruin your comfort. Our expert technicians
               are ready to help 24/7 across Patna.
             </p>
 

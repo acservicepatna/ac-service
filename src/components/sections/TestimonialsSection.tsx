@@ -188,7 +188,7 @@ function TestimonialCard({ testimonial, isActive }: { testimonial: Testimonial; 
             "text-lg leading-relaxed mb-8 font-medium transition-colors duration-300",
             isActive ? "text-gray-900" : "text-gray-700"
           )}>
-            "{testimonial.comment}"
+            &ldquo;{testimonial.comment}&rdquo;
           </blockquote>
 
           {/* Customer Info */}

@@ -96,7 +96,7 @@ export default function MobileMenu({
           </Badge>
         </div>
         <p className="text-sm text-destructive font-semibold mb-3">
-          AC Emergency? We're available 24/7!
+          AC Emergency? We&apos;re available 24/7!
         </p>
         <Button
           onClick={handleEmergencyCall}

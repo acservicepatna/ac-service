@@ -206,7 +206,7 @@ function DetailedComparisonSheet({
               </div>
 
               <div>
-                <h4 className="font-medium mb-3">What's Included:</h4>
+                <h4 className="font-medium mb-3">What&apos;s Included:</h4>
                 <ul className="space-y-2">
                   {amcFeatures.map((feature, index) => (
                     <motion.li
@@ -261,7 +261,7 @@ function DetailedComparisonSheet({
               </div>
 
               <div>
-                <h4 className="font-medium mb-3">What's Included:</h4>
+                <h4 className="font-medium mb-3">What&apos;s Included:</h4>
                 <ul className="space-y-2">
                   {oneTimeFeatures.map((feature, index) => (
                     <motion.li
@@ -428,7 +428,7 @@ export function AMCComparisonSlice({ className }: AMCComparisonSliceProps) {
                     <HoverCardTrigger asChild>
                       <button className="w-full text-xs text-indigo-600 hover:text-indigo-700 flex items-center justify-center gap-1">
                         <Info className="w-3 h-3" />
-                        What's included in AMC?
+                        What&apos;s included in AMC?
                       </button>
                     </HoverCardTrigger>
                     <HoverCardContent className="w-80">
@@ -509,7 +509,7 @@ export function AMCComparisonSlice({ className }: AMCComparisonSliceProps) {
                 </div>
 
                 <div className="space-y-2">
-                  <h4 className="font-medium text-sm">What's Included:</h4>
+                  <h4 className="font-medium text-sm">What&apos;s Included:</h4>
                   <ul className="space-y-1 text-sm">
                     {['Basic cleaning & maintenance', 'Standard warranty', 'Regular response time'].map((feature, idx) => (
                       <li key={idx} className="flex items-center gap-2">
