@@ -28,6 +28,9 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     siteName: 'AC Service Patna',
   },
+  verification: {
+    google: 'CZqD_3gIIKDK0sZVeTYCPrmXs-LGKiJaI0dYG3SmUWc',
+  },
   other: {
     'geo.region': 'IN-BR',
     'geo.placename': 'Patna',
