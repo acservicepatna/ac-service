@@ -94,7 +94,7 @@ const SheetContent = React.forwardRef<HTMLDivElement, SheetContentProps>(
           ref={ref}
           data-state={open ? 'open' : 'closed'}
           className={cn(
-            'fixed z-50 bg-white p-6 shadow-lg transition-transform duration-300 ease-in-out overflow-y-auto',
+            'fixed z-50 bg-white shadow-lg transition-transform duration-300 ease-in-out overflow-hidden flex flex-col',
             sideClasses[side],
             className
           )}

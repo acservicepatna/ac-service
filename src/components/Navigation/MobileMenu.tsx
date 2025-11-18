@@ -45,8 +45,8 @@ export default function MobileMenu({
   };
 
   return (
-    <div className="flex flex-col h-full p-6">
-      <SheetHeader className="text-left border-b pb-4 mb-6">
+    <div className="flex flex-col h-full">
+      <SheetHeader className="text-left border-b pb-4 mb-6 px-6 pt-6">
         <div className="flex items-center space-x-3">
           <div className="flex items-center justify-center w-10 h-10 bg-primary rounded-lg">
             <svg
@@ -75,8 +75,10 @@ export default function MobileMenu({
         <SheetClose data-sheet-close />
       </SheetHeader>
 
-      {/* Emergency Section */}
-      <div className="bg-destructive/10 border border-destructive/20 rounded-lg p-4 mb-6">
+      {/* Scrollable Content */}
+      <div className="flex-1 overflow-y-auto px-6">
+        {/* Emergency Section */}
+        <div className="bg-destructive/10 border border-destructive/20 rounded-lg p-4 mb-6">
         <div className="flex items-center gap-2 mb-3">
           <div className="animate-pulse">
             <svg
@@ -152,9 +154,10 @@ export default function MobileMenu({
           ))}
         </ul>
       </nav>
+      </div>
 
-      {/* Contact Section */}
-      <div className="border-t pt-6 mt-6">
+      {/* Contact Section - Fixed at bottom */}
+      <div className="border-t pt-6 px-6 pb-6 bg-white">
         <div className="space-y-4">
           <Button 
             onClick={handleBookingClick}
