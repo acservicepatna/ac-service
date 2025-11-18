@@ -85,7 +85,7 @@ const SheetContent = React.forwardRef<HTMLDivElement, SheetContentProps>(
       <>
         {/* Backdrop - Click disabled to prevent auto-close */}
         <div
-          className="fixed inset-0 z-50 bg-black/50 backdrop-blur-sm"
+          className="fixed inset-0 z-[60] bg-black/50 backdrop-blur-sm"
         />
 
         {/* Sheet content */}
@@ -93,7 +93,7 @@ const SheetContent = React.forwardRef<HTMLDivElement, SheetContentProps>(
           ref={ref}
           data-state={open ? 'open' : 'closed'}
           className={cn(
-            'fixed z-50 bg-white shadow-lg transition-transform duration-300 ease-in-out overflow-hidden flex flex-col',
+            'fixed z-[60] bg-white shadow-lg transition-transform duration-300 ease-in-out overflow-hidden flex flex-col',
             sideClasses[side],
             className
           )}
