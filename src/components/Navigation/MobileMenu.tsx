@@ -39,9 +39,7 @@ export default function MobileMenu({
     if (onBookingClick) {
       onBookingClick();
     }
-    if (onClose) {
-      onClose();
-    }
+    // Don't close the menu - let user close manually with X icon
   };
 
   return (
@@ -120,12 +118,6 @@ export default function MobileMenu({
             <li key={item.name}>
               <Link
                 href={item.href}
-                onClick={() => {
-                  // Close the sheet manually when clicking navigation
-                  if (onClose) {
-                    onClose();
-                  }
-                }}
                 className={cn(
                   'flex items-center px-4 py-3 text-base font-medium rounded-lg transition-colors w-full block',
                   currentPath === item.href
