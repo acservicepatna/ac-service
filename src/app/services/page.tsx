@@ -3,7 +3,7 @@ import ServicesPageClient from './client';
 
 export const metadata: Metadata = {
   title:
-    'AC Services in Patna | Repair, Maintenance, Installation | AC Servicing Pro',
+    'AC Services in Patna | Repair, Maintenance, Installation | AC Service Patna',
   description:
     'Complete AC services in Patna - Professional AC repair, maintenance, installation, and cleaning. Expert technicians serving Boring Road, Kankarbagh, Fraser Road, and all Patna areas. Same-day service available.',
   keywords:

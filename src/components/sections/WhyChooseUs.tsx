@@ -605,7 +605,7 @@ export function WhyChooseUs({ className }: WhyChooseUsProps) {
           transition={{ duration: shouldReduceMotion ? 0.1 : 0.6 }}
         >
           <h2 className="text-4xl md:text-5xl font-bold tracking-tight text-gray-900 mb-6">
-            Why Choose AC Servicing Pro?
+            Why Choose AC Service Patna?
           </h2>
           <p className="mx-auto max-w-3xl text-xl text-gray-600 leading-relaxed">
             Your trusted partner for all AC services in Patna with unmatched expertise,

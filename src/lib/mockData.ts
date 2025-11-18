@@ -576,7 +576,7 @@ export const MOCK_TESTIMONIALS: Testimonial[] = [
     service: 'Split AC Installation',
     rating: 5,
     comment:
-      'Excellent service! Rajesh ji installed my new Daikin split AC perfectly. Very professional work with proper piping and electrical connections. The AC is working efficiently and quietly. Highly recommend AC Servicing Pro.',
+      'Excellent service! Rajesh ji installed my new Daikin split AC perfectly. Very professional work with proper piping and electrical connections. The AC is working efficiently and quietly. Highly recommend AC Service Patna.',
     date: new Date('2024-01-15'),
     verified: true,
     image: '/images/customers/priya-sharma.jpg',

@@ -1,5 +1,5 @@
 /**
- * Application constants and configuration for AC Servicing Pro - Patna, Bihar
+ * Application constants and configuration for AC Service Patna - Patna, Bihar
  */
 
 export const APP_CONFIG = {

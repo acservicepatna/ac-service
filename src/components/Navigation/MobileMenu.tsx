@@ -65,7 +65,7 @@ export default function MobileMenu({
           </div>
           <div>
             <SheetTitle className="text-xl font-bold text-foreground">
-              AC Servicing Pro
+              AC Service Patna
             </SheetTitle>
             <p className="text-sm text-muted-foreground">
               Professional AC Services in Patna

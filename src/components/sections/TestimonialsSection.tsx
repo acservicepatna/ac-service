@@ -36,7 +36,7 @@ const FALLBACK_TESTIMONIALS: Testimonial[] = [
     service: 'AC Repair',
     rating: 5,
     comment:
-      'Amazing experience with AC Servicing Pro. They responded to my emergency call within 30 minutes and got my AC working perfectly. Great team!',
+      'Amazing experience with AC Service Patna. They responded to my emergency call within 30 minutes and got my AC working perfectly. Great team!',
     date: new Date('2024-01-10'),
     verified: true,
   },

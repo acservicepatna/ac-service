@@ -10,13 +10,13 @@ import MainLayout from '@/components/layouts/MainLayout';
 import type { TeamMember, Testimonial } from '@/types';
 
 export const metadata: Metadata = {
-  title: 'About Us | AC Servicing Pro Patna | Expert AC Technicians & Company',
+  title: 'About Us | AC Service Patna | Expert AC Technicians & Company',
   description:
-    'Learn about AC Servicing Pro - Patna&apos;s trusted AC service provider. Meet our certified technicians with 10+ years experience. Professional AC repair, maintenance, and installation services across Patna.',
+    'Learn about AC Service Patna - Patna&apos;s trusted AC service provider. Meet our certified technicians with 10+ years experience. Professional AC repair, maintenance, and installation services across Patna.',
   keywords:
-    'about AC Servicing Pro, AC technicians Patna, professional AC service team, certified AC repair experts Patna, AC installation specialists Bihar, experienced AC maintenance team',
+    'about AC Service Patna, AC technicians Patna, professional AC service team, certified AC repair experts Patna, AC installation specialists Bihar, experienced AC maintenance team',
   openGraph: {
-    title: 'About AC Servicing Pro | Expert AC Service Team in Patna',
+    title: 'About AC Service Patna | Expert AC Service Team in Patna',
     description:
       'Professional AC service team with 10+ years experience in Patna. Certified technicians for all AC brands with guaranteed quality service.',
     type: 'website',
@@ -89,7 +89,7 @@ const testimonials: Testimonial[] = [
     service: 'AC Installation',
     rating: 5,
     comment:
-      'Had my new split AC installed by AC Servicing Pro. The installation was clean, professional, and completed on time. The technician explained everything clearly.',
+      'Had my new split AC installed by AC Service Patna. The installation was clean, professional, and completed on time. The technician explained everything clearly.',
     date: new Date('2024-01-10'),
     verified: true,
   },
@@ -133,7 +133,7 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              About AC Servicing Pro
+              About AC Service Patna
             </h1>
             <p className="text-xl opacity-90 max-w-3xl mx-auto">
               Your trusted partner for professional AC services in Patna. Over a
@@ -153,7 +153,7 @@ export default function AboutPage() {
               </h2>
               <div className="space-y-4 text-muted-foreground">
                 <p>
-                  AC Servicing Pro was founded in 2014 with a simple mission: to
+                  AC Service Patna was founded in 2014 with a simple mission: to
                   provide reliable, professional AC services to the people of
                   Patna. What started as a small team of 2 technicians has grown
                   into Patna&apos;s most trusted AC service provider.
@@ -375,7 +375,7 @@ export default function AboutPage() {
           </h2>
           <p className="text-xl text-primary-foreground/90 mb-8 max-w-2xl mx-auto">
             Join thousands of satisfied customers across Patna. Book your
-            service today and experience the AC Servicing Pro difference.
+            service today and experience the AC Service Patna difference.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button asChild variant="secondary" size="lg">

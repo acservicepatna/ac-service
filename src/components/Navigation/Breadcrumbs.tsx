@@ -180,14 +180,14 @@ export function useCurrentPage() {
         'Comprehensive AC services including repair, installation, and maintenance',
       booking: 'Book your AC service appointment online',
       about: 'Learn about our professional AC service team',
-      contact: 'Get in touch with AC Servicing Pro',
+      contact: 'Get in touch with AC Service Patna',
       'ac-repair': 'Professional AC repair services in Patna',
       'ac-installation': 'Expert AC installation services',
       'ac-maintenance': 'Regular AC maintenance and servicing',
     };
 
     const description =
-      descriptions[lastSegment] || `${title} - AC Servicing Pro`;
+      descriptions[lastSegment] || `${title} - AC Service Patna`;
 
     return { title, description };
   }, [pathname]);

@@ -15,13 +15,13 @@ import {
 } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'Contact AC Servicing Pro Patna | Call +91-9876543210 | 24/7 Service',
+  title: 'Contact AC Service Patna | Call +91-9876543210 | 24/7 Service',
   description:
-    'Contact AC Servicing Pro in Patna for professional AC services. Call +91-9876543210 for immediate assistance. Visit our Bailey Road office or get 24/7 emergency service across all Patna areas.',
+    'Contact AC Service Patna in Patna for professional AC services. Call +91-9876543210 for immediate assistance. Visit our Bailey Road office or get 24/7 emergency service across all Patna areas.',
   keywords:
-    'contact AC Servicing Pro Patna, AC service phone number Patna, AC repair contact Bailey Road, emergency AC service number, AC technician contact Patna, AC service address Bihar',
+    'contact AC Service Patna, AC service phone number Patna, AC repair contact Bailey Road, emergency AC service number, AC technician contact Patna, AC service address Bihar',
   openGraph: {
-    title: 'Contact AC Servicing Pro | 24/7 AC Service in Patna',
+    title: 'Contact AC Service Patna | 24/7 AC Service in Patna',
     description:
       'Contact us for professional AC services in Patna. 24/7 emergency support available. Call +91-9876543210 or visit our Bailey Road office.',
     type: 'website',
