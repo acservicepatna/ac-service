@@ -83,10 +83,9 @@ const SheetContent = React.forwardRef<HTMLDivElement, SheetContentProps>(
 
     return (
       <>
-        {/* Backdrop */}
+        {/* Backdrop - Click disabled to prevent auto-close */}
         <div
           className="fixed inset-0 z-50 bg-black/50 backdrop-blur-sm"
-          onClick={() => setOpen(false)}
         />
 
         {/* Sheet content */}
