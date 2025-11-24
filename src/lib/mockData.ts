@@ -117,6 +117,7 @@ export const MOCK_SERVICES: Service[] = [
     name: 'AC Diagnostic Service',
     description:
       'Complete diagnostic check to identify AC problems with detailed report',
+    price: { min: 0, currency: 'INR' },
     duration: 45,
     category: 'repair' as ServiceCategory,
     features: [
@@ -232,6 +233,7 @@ export const MOCK_SERVICES: Service[] = [
     name: 'Central AC Installation',
     description:
       'Complete central AC system installation with ductwork, electrical setup, and commissioning. Rate determined after site visit',
+    price: { min: 0, currency: 'INR' },
     duration: 480,
     category: 'installation' as ServiceCategory,
     features: [

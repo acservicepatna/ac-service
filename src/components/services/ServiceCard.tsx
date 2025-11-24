@@ -59,6 +59,18 @@ export default function ServiceCard({
     service.price.max && service.price.max > service.price.min * 1.2;
 
   const renderPrice = () => {
+    // Handle services with no fixed price (price.min is 0)
+    if (service.price.min === 0) {
+      return (
+        <div className="text-right">
+          <div className="text-xl font-bold text-primary">
+            Contact for pricing
+          </div>
+          <div className="text-sm text-muted-foreground">Quote on inspection</div>
+        </div>
+      );
+    }
+
     if (service.price.max && service.price.max > service.price.min) {
       return (
         <div className="text-right">
