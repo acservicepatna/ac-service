@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { Phone, CheckCircle, Calendar, Award, MapPin } from 'lucide-react';
+import { Phone, CheckCircle, Calendar, MapPin } from 'lucide-react';
 import Button from '@/components/ui/Button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card';
 import { Badge } from '@/components/ui/Badge';
@@ -107,48 +107,6 @@ export default function ACMaintenancePatnaPage() {
                   <div className="mt-4 pt-4 border-t">
                     <p className="text-2xl font-bold text-blue-600">₹499</p>
                     <p className="text-sm text-gray-500">Per service visit</p>
-                  </div>
-                </CardContent>
-              </Card>
-
-              <Card>
-                <CardHeader>
-                  <Award className="h-10 w-10 text-indigo-600 mb-2" />
-                  <CardTitle>Premium AC Service</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-gray-600 mb-4">
-                    Comprehensive servicing with deep cleaning
-                  </p>
-                  <ul className="space-y-2">
-                    <li className="flex items-start gap-2">
-                      <CheckCircle className="h-5 w-5 text-green-600 mt-0.5 flex-shrink-0" />
-                      <span className="text-sm">Complete deep cleaning</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <CheckCircle className="h-5 w-5 text-green-600 mt-0.5 flex-shrink-0" />
-                      <span className="text-sm">Anti-bacterial treatment</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <CheckCircle className="h-5 w-5 text-green-600 mt-0.5 flex-shrink-0" />
-                      <span className="text-sm">Gas pressure check</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <CheckCircle className="h-5 w-5 text-green-600 mt-0.5 flex-shrink-0" />
-                      <span className="text-sm">Performance optimization</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <CheckCircle className="h-5 w-5 text-green-600 mt-0.5 flex-shrink-0" />
-                      <span className="text-sm">Electrical connection check</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <CheckCircle className="h-5 w-5 text-green-600 mt-0.5 flex-shrink-0" />
-                      <span className="text-sm">Detailed diagnostic report</span>
-                    </li>
-                  </ul>
-                  <div className="mt-4 pt-4 border-t">
-                    <p className="text-2xl font-bold text-indigo-600">₹899 - ₹1,299</p>
-                    <p className="text-sm text-gray-500">30-day service warranty</p>
                   </div>
                 </CardContent>
               </Card>

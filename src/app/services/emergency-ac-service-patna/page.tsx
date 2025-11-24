@@ -109,50 +109,8 @@ export default function EmergencyACServicePatnaPage() {
                     </li>
                   </ul>
                   <div className="mt-4 pt-4 border-t">
-                    <p className="text-2xl font-bold text-red-600">₹599 - ₹1,999</p>
+                    <p className="text-2xl font-bold text-red-600">₹999 - ₹2,499</p>
                     <p className="text-sm text-gray-500">Plus repair costs if needed</p>
-                  </div>
-                </CardContent>
-              </Card>
-
-              <Card className="border-2 border-orange-600">
-                <CardHeader>
-                  <AlertCircle className="h-10 w-10 text-orange-600 mb-2" />
-                  <CardTitle>Emergency Gas Leak Repair</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-gray-600 mb-4">
-                    Urgent gas leak detection and repair service
-                  </p>
-                  <ul className="space-y-2">
-                    <li className="flex items-start gap-2">
-                      <CheckCircle className="h-5 w-5 text-green-600 mt-0.5 flex-shrink-0" />
-                      <span className="text-sm">Immediate leak detection</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <CheckCircle className="h-5 w-5 text-green-600 mt-0.5 flex-shrink-0" />
-                      <span className="text-sm">Emergency leak sealing</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <CheckCircle className="h-5 w-5 text-green-600 mt-0.5 flex-shrink-0" />
-                      <span className="text-sm">Pressure testing</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <CheckCircle className="h-5 w-5 text-green-600 mt-0.5 flex-shrink-0" />
-                      <span className="text-sm">Gas refilling service</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <CheckCircle className="h-5 w-5 text-green-600 mt-0.5 flex-shrink-0" />
-                      <span className="text-sm">Safety inspection</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <CheckCircle className="h-5 w-5 text-green-600 mt-0.5 flex-shrink-0" />
-                      <span className="text-sm">Performance verification</span>
-                    </li>
-                  </ul>
-                  <div className="mt-4 pt-4 border-t">
-                    <p className="text-2xl font-bold text-orange-600">₹899 - ₹2,499</p>
-                    <p className="text-sm text-gray-500">Includes leak repair & gas</p>
                   </div>
                 </CardContent>
               </Card>
