@@ -9,13 +9,13 @@ import MainLayout from '@/components/layouts/MainLayout';
 export const metadata: Metadata = {
   title: 'AC Maintenance Patna | AMC & Regular Servicing in Bihar',
   description:
-    'Regular AC maintenance and AMC services in Patna. Basic maintenance, premium servicing, annual contracts. Keep your AC running efficiently. Call 7903735308 for reliable AC maintenance service in Patna.',
+    'Regular AC maintenance and AMC services in Patna. Basic maintenance, premium servicing, annual contracts. Keep your AC running efficiently. Call 9296746329 for reliable AC maintenance service in Patna.',
   keywords:
     'AC maintenance Patna, AC AMC, AC servicing Patna, annual maintenance contract, regular AC service, preventive maintenance, AC checkup, AC tune-up, AC service contract Bihar',
   openGraph: {
     title: 'AC Maintenance Patna | AMC & Regular Servicing in Bihar',
     description:
-      'Regular AC maintenance and AMC services in Patna. Basic to premium plans available. Call 7903735308',
+      'Regular AC maintenance and AMC services in Patna. Basic to premium plans available. Call 9296746329',
     type: 'website',
   },
 };
@@ -39,13 +39,13 @@ export default function ACMaintenancePatnaPage() {
                 efficiently. Preventive care for longer AC lifespan and better performance.
               </p>
               <div className="flex flex-wrap gap-4">
-                <Link href="tel:+917903735308">
+                <Link href="tel:+919296746329">
                   <Button
                     size="lg"
                     className="bg-white text-blue-600 hover:bg-blue-50"
                   >
                     <Phone className="mr-2 h-5 w-5" />
-                    Call 7903735308
+                    Call 9296746329
                   </Button>
                 </Link>
                 <Link href="/booking">
@@ -184,13 +184,13 @@ export default function ACMaintenancePatnaPage() {
               Call now to schedule your maintenance visit!
             </p>
             <div className="flex flex-wrap justify-center gap-4">
-              <Link href="tel:+917903735308"><Button
+              <Link href="tel:+919296746329"><Button
                 size="lg"
                 className="bg-white text-blue-600 hover:bg-blue-50"
                 
               >
                 <Phone className="mr-2 h-5 w-5" />
-                Call Now: 7903735308
+                Call Now: 9296746329
               </Button></Link>
               <Link href="/booking">
                 <Button

@@ -9,13 +9,13 @@ import MainLayout from '@/components/layouts/MainLayout';
 export const metadata: Metadata = {
   title: 'AC Cleaning Patna | Deep Cleaning & Chemical Wash Services',
   description:
-    'Professional AC cleaning services in Patna. Deep cleaning, chemical wash, filter cleaning, coil cleaning. Get fresh and efficient cooling. Call 7903735308 for expert AC cleaning service in Patna.',
+    'Professional AC cleaning services in Patna. Deep cleaning, chemical wash, filter cleaning, coil cleaning. Get fresh and efficient cooling. Call 9296746329 for expert AC cleaning service in Patna.',
   keywords:
     'AC cleaning Patna, AC deep cleaning, AC chemical wash, AC filter cleaning, split AC cleaning, window AC cleaning, AC coil cleaning, AC sanitization Patna, AC washing service',
   openGraph: {
     title: 'AC Cleaning Patna | Deep Cleaning & Chemical Wash Services',
     description:
-      'Professional AC cleaning services in Patna. Deep cleaning and chemical wash. Call 7903735308',
+      'Professional AC cleaning services in Patna. Deep cleaning and chemical wash. Call 9296746329',
     type: 'website',
   },
 };
@@ -39,13 +39,13 @@ export default function ACCleaningPatnaPage() {
                 Get fresh, efficient cooling with our professional cleaning services.
               </p>
               <div className="flex flex-wrap gap-4">
-                <Link href="tel:+917903735308">
+                <Link href="tel:+919296746329">
                   <Button
                     size="lg"
                     className="bg-white text-blue-600 hover:bg-blue-50"
                   >
                     <Phone className="mr-2 h-5 w-5" />
-                    Call 7903735308
+                    Call 9296746329
                   </Button>
                 </Link>
                 <Link href="/booking">
@@ -187,13 +187,13 @@ export default function ACCleaningPatnaPage() {
               Call now for fresh and efficient cooling!
             </p>
             <div className="flex flex-wrap justify-center gap-4">
-              <Link href="tel:+917903735308"><Button
+              <Link href="tel:+919296746329"><Button
                 size="lg"
                 className="bg-white text-blue-600 hover:bg-blue-50"
                 
               >
                 <Phone className="mr-2 h-5 w-5" />
-                Call Now: 7903735308
+                Call Now: 9296746329
               </Button></Link>
               <Link href="/booking">
                 <Button

@@ -9,13 +9,13 @@ import MainLayout from '@/components/layouts/MainLayout';
 export const metadata: Metadata = {
   title: 'AC Repair Patna | Professional AC Repair Services in Bihar',
   description:
-    'Expert AC repair services in Patna. Quick fixes for minor issues to major repairs. Compressor repair, PCB repair, cooling system issues. Call 7903735308 for same-day AC repair service in Patna.',
+    'Expert AC repair services in Patna. Quick fixes for minor issues to major repairs. Compressor repair, PCB repair, cooling system issues. Call 9296746329 for same-day AC repair service in Patna.',
   keywords:
     'AC repair Patna, AC repair service Patna, split AC repair, window AC repair, AC compressor repair, AC PCB repair, AC cooling problem, AC not cooling, AC technician Patna, emergency AC repair',
   openGraph: {
     title: 'AC Repair Patna | Professional AC Repair Services',
     description:
-      'Expert AC repair services in Patna. Minor to major repairs. Same-day service available. Call 7903735308',
+      'Expert AC repair services in Patna. Minor to major repairs. Same-day service available. Call 9296746329',
     type: 'website',
   },
 };
@@ -39,13 +39,13 @@ export default function ACRepairPatnaPage() {
                 Same-day service available across Patna.
               </p>
               <div className="flex flex-wrap gap-4">
-                <Link href="tel:+917903735308">
+                <Link href="tel:+919296746329">
                   <Button
                     size="lg"
                     className="bg-white text-blue-600 hover:bg-blue-50"
                   >
                     <Phone className="mr-2 h-5 w-5" />
-                    Call 7903735308
+                    Call 9296746329
                   </Button>
                 </Link>
                 <Link href="/booking">
@@ -205,13 +205,13 @@ export default function ACRepairPatnaPage() {
               Call now for immediate assistance!
             </p>
             <div className="flex flex-wrap justify-center gap-4">
-              <Link href="tel:+917903735308"><Button
+              <Link href="tel:+919296746329"><Button
                 size="lg"
                 className="bg-white text-blue-600 hover:bg-blue-50"
                 
               >
                 <Phone className="mr-2 h-5 w-5" />
-                Call Now: 7903735308
+                Call Now: 9296746329
               </Button></Link>
               <Link href="/booking">
                 <Button

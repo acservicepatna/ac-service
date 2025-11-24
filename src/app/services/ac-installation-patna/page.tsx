@@ -9,13 +9,13 @@ import MainLayout from '@/components/layouts/MainLayout';
 export const metadata: Metadata = {
   title: 'AC Installation Patna | Professional Split & Window AC Installation',
   description:
-    'Professional AC installation services in Patna. Window AC, split AC, and central AC installation by certified technicians. Get expert installation for all brands. Call 7903735308 for reliable AC installation service in Patna.',
+    'Professional AC installation services in Patna. Window AC, split AC, and central AC installation by certified technicians. Get expert installation for all brands. Call 9296746329 for reliable AC installation service in Patna.',
   keywords:
     'AC installation Patna, split AC installation, window AC installation, central AC installation, AC fitting Patna, new AC installation, AC mounting service, professional AC installation Bihar',
   openGraph: {
     title: 'AC Installation Patna | Professional Split & Window AC Installation',
     description:
-      'Professional AC installation services in Patna. Window, split, and central AC installation. Call 7903735308',
+      'Professional AC installation services in Patna. Window, split, and central AC installation. Call 9296746329',
     type: 'website',
   },
 };
@@ -39,13 +39,13 @@ export default function ACInstallationPatnaPage() {
                 Professional mounting, wiring, and commissioning by certified technicians.
               </p>
               <div className="flex flex-wrap gap-4">
-                <Link href="tel:+917903735308">
+                <Link href="tel:+919296746329">
                   <Button
                     size="lg"
                     className="bg-white text-blue-600 hover:bg-blue-50"
                   >
                     <Phone className="mr-2 h-5 w-5" />
-                    Call 7903735308
+                    Call 9296746329
                   </Button>
                 </Link>
                 <Link href="/booking">
@@ -225,13 +225,13 @@ export default function ACInstallationPatnaPage() {
               Call now for reliable installation service!
             </p>
             <div className="flex flex-wrap justify-center gap-4">
-              <Link href="tel:+917903735308"><Button
+              <Link href="tel:+919296746329"><Button
                 size="lg"
                 className="bg-white text-blue-600 hover:bg-blue-50"
                 
               >
                 <Phone className="mr-2 h-5 w-5" />
-                Call Now: 7903735308
+                Call Now: 9296746329
               </Button></Link>
               <Link href="/booking">
                 <Button

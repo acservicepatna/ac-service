@@ -7,15 +7,15 @@ import { Badge } from '@/components/ui/Badge';
 import MainLayout from '@/components/layouts/MainLayout';
 
 export const metadata: Metadata = {
-  title: 'Emergency AC Service Patna | 24/7 AC Repair | Call 7903735308',
+  title: 'Emergency AC Service Patna | 24/7 AC Repair | Call 9296746329',
   description:
-    '24/7 emergency AC service in Patna. Fast response time, immediate repairs, gas leak repair. Available round the clock for urgent AC issues. Call 7903735308 for emergency AC repair service in Patna.',
+    '24/7 emergency AC service in Patna. Fast response time, immediate repairs, gas leak repair. Available round the clock for urgent AC issues. Call 9296746329 for emergency AC repair service in Patna.',
   keywords:
     'emergency AC service Patna, 24/7 AC repair, urgent AC repair, emergency gas leak repair, same day AC repair, immediate AC service, AC breakdown service, 24 hour AC repair Patna',
   openGraph: {
-    title: 'Emergency AC Service Patna | 24/7 AC Repair | Call 7903735308',
+    title: 'Emergency AC Service Patna | 24/7 AC Repair | Call 9296746329',
     description:
-      '24/7 emergency AC service in Patna. Fast response time and immediate repairs. Call 7903735308',
+      '24/7 emergency AC service in Patna. Fast response time and immediate repairs. Call 9296746329',
     type: 'website',
   },
 };
@@ -39,13 +39,13 @@ export default function EmergencyACServicePatnaPage() {
                 immediate repairs, and same-day resolution for urgent AC issues.
               </p>
               <div className="flex flex-wrap gap-4">
-                <Link href="tel:+917903735308">
+                <Link href="tel:+919296746329">
                   <Button
                     size="lg"
                     className="bg-white text-red-600 hover:bg-red-50 animate-pulse"
                   >
                     <Phone className="mr-2 h-5 w-5" />
-                    Call 7903735308 Now
+                    Call 9296746329 Now
                   </Button>
                 </Link>
                 <Link href="/booking">
@@ -180,13 +180,13 @@ export default function EmergencyACServicePatnaPage() {
               Call now for fast response and same-day resolution!
             </p>
             <div className="flex flex-wrap justify-center gap-4">
-              <Link href="tel:+917903735308"><Button
+              <Link href="tel:+919296746329"><Button
                 size="lg"
                 className="bg-white text-red-600 hover:bg-red-50 animate-pulse"
                 
               >
                 <Phone className="mr-2 h-5 w-5" />
-                Emergency Call: 7903735308
+                Emergency Call: 9296746329
               </Button></Link>
               <Link href="/booking">
                 <Button

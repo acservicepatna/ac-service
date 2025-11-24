@@ -92,10 +92,10 @@ export const PATNA_SERVICE_AREAS = [
 // Contact Information
 export const CONTACT_INFO = {
   phone: {
-    primary: '+91-7903735308',
-    emergency: '+91-7903735308',
-    whatsapp: '+91-7903735308',
-    display: '7903735308',
+    primary: '+91-9296746329',
+    emergency: '+91-9296746329',
+    whatsapp: '+91-9296746329',
+    display: '9296746329',
   },
   email: {
     primary: 'contact.acservicepatna@gmail.com',

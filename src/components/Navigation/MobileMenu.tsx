@@ -21,18 +21,18 @@ export default function MobileMenu({
   onClose,
 }: MobileMenuProps) {
   const handlePhoneCall = () => {
-    window.open('tel:+919835123456', '_self');
+    window.open('tel:+919296746329', '_self');
   };
 
   const handleEmergencyCall = () => {
-    window.open('tel:+919835123456', '_self');
+    window.open('tel:+919296746329', '_self');
   };
 
   const handleWhatsApp = () => {
     const message = encodeURIComponent(
       'Hi, I need AC service in Patna. Please contact me.'
     );
-    window.open(`https://wa.me/919835123456?text=${message}`, '_blank');
+    window.open(`https://wa.me/919296746329?text=${message}`, '_blank');
   };
 
   const handleBookingClick = () => {

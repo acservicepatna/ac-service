@@ -9,13 +9,13 @@ import MainLayout from '@/components/layouts/MainLayout';
 export const metadata: Metadata = {
   title: 'AC Gas Refilling Patna | Refrigerant Recharge Services in Bihar',
   description:
-    'Professional AC gas refilling and refrigerant recharge services in Patna. Leak detection, pressure check, fresh gas filling. Get better cooling performance. Call 7903735308 for expert AC gas refilling service in Patna.',
+    'Professional AC gas refilling and refrigerant recharge services in Patna. Leak detection, pressure check, fresh gas filling. Get better cooling performance. Call 9296746329 for expert AC gas refilling service in Patna.',
   keywords:
     'AC gas refilling Patna, AC gas charging, refrigerant refilling, AC gas leak repair, AC cooling gas, R32 gas refilling, R410A gas, AC gas top up, AC not cooling Patna',
   openGraph: {
     title: 'AC Gas Refilling Patna | Refrigerant Recharge Services in Bihar',
     description:
-      'Professional AC gas refilling services in Patna. Leak detection and fresh gas filling. Call 7903735308',
+      'Professional AC gas refilling services in Patna. Leak detection and fresh gas filling. Call 9296746329',
     type: 'website',
   },
 };
@@ -39,13 +39,13 @@ export default function ACGasRefillingPatnaPage() {
                 pressure testing, and fresh gas filling for optimal cooling performance.
               </p>
               <div className="flex flex-wrap gap-4">
-                <Link href="tel:+917903735308">
+                <Link href="tel:+919296746329">
                   <Button
                     size="lg"
                     className="bg-white text-blue-600 hover:bg-blue-50"
                   >
                     <Phone className="mr-2 h-5 w-5" />
-                    Call 7903735308
+                    Call 9296746329
                   </Button>
                 </Link>
                 <Link href="/booking">
@@ -231,13 +231,13 @@ export default function ACGasRefillingPatnaPage() {
               Call now for better cooling performance!
             </p>
             <div className="flex flex-wrap justify-center gap-4">
-              <Link href="tel:+917903735308"><Button
+              <Link href="tel:+919296746329"><Button
                 size="lg"
                 className="bg-white text-blue-600 hover:bg-blue-50"
                 
               >
                 <Phone className="mr-2 h-5 w-5" />
-                Call Now: 7903735308
+                Call Now: 9296746329
               </Button></Link>
               <Link href="/booking">
                 <Button

@@ -34,7 +34,7 @@ export default function MobileBookingDock({
   };
 
   const handleCallNow = () => {
-    window.open('tel:+919835123456', '_self');
+    window.open('tel:+919296746329', '_self');
     setIsOpen(false);
   };
 
@@ -42,7 +42,7 @@ export default function MobileBookingDock({
     const message = encodeURIComponent(
       'Hi! I would like to book an AC service. Please provide more details.'
     );
-    window.open(`https://wa.me/919835123456?text=${message}`, '_blank');
+    window.open(`https://wa.me/919296746329?text=${message}`, '_blank');
     setIsOpen(false);
   };
 
