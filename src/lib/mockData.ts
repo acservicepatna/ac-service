@@ -75,7 +75,7 @@ export const MOCK_SERVICES: Service[] = [
   // Cleaning Services
   {
     id: `srv_${serviceIdCounter++}`,
-    name: 'AC Deep Cleaning',
+    name: 'AC Deep Cleaning (Jet Pump)',
     description:
       'Thorough cleaning of AC unit including filters, coils, and internal components',
     price: { min: 699, max: 999, currency: 'INR' },
@@ -117,7 +117,7 @@ export const MOCK_SERVICES: Service[] = [
     name: 'AC Diagnostic Service',
     description:
       'Complete diagnostic check to identify AC problems with detailed report',
-    price: { min: 0, currency: 'INR' },
+    price: { min: 199, currency: 'INR' },
     duration: 45,
     category: 'repair' as ServiceCategory,
     features: [
@@ -198,7 +198,7 @@ export const MOCK_SERVICES: Service[] = [
     name: 'Window AC Installation',
     description:
       'Complete window AC installation with proper mounting, electrical work, and testing',
-    price: { min: 999, currency: 'INR' },
+    price: { min: 449, max: 999, currency: 'INR' },
     duration: 120,
     category: 'installation' as ServiceCategory,
     features: [
@@ -500,7 +500,7 @@ export const MOCK_TESTIMONIALS: Testimonial[] = [
     id: `test_${feedbackIdCounter++}`,
     customerName: 'Ms. Neha Gupta',
     customerArea: 'Bailey Road',
-    service: 'AC Deep Cleaning',
+    service: 'AC Deep Cleaning (Jet Pump)',
     rating: 5,
     comment:
       'Amazing deep cleaning service! My 3-year-old split AC was not cooling properly. After their chemical wash service, it works like new. Vikash ji did excellent work.',

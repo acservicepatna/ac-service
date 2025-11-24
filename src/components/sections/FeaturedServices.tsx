@@ -218,7 +218,7 @@ export function FeaturedServices({ className }: FeaturedServicesProps) {
     },
     {
       id: 'ac-cleaning',
-      name: 'Deep AC Cleaning',
+      name: 'AC Deep Cleaning (Jet Pump)',
       description:
         'Thorough cleaning of AC units including chemical wash and sanitization',
       category: 'cleaning',
