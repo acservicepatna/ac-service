@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
-import { Clock, Shield, Star, Users, Wrench, Zap } from 'lucide-react';
+import { Clock, Star, Users, Wrench, Zap } from 'lucide-react';
 import {
   Card,
   CardContent,
@@ -177,10 +177,6 @@ export default function ServiceCard({
             <Clock className="w-4 h-4" />
             <span>{service.duration} mins</span>
           </div>
-          <div className="flex items-center gap-1">
-            <Shield className="w-4 h-4" />
-            <span>{service.warranty.duration} days warranty</span>
-          </div>
         </div>
 
         {/* Key Features (limited in card view) */}
@@ -287,12 +283,6 @@ export default function ServiceCard({
                   </div>
                   <div>
                     <h4 className="font-medium text-sm text-muted-foreground mb-1">
-                      Warranty
-                    </h4>
-                    <p className="text-sm">{service.warranty.duration} days</p>
-                  </div>
-                  <div>
-                    <h4 className="font-medium text-sm text-muted-foreground mb-1">
                       Category
                     </h4>
                     <Badge
@@ -342,16 +332,6 @@ export default function ServiceCard({
                         {acType.charAt(0).toUpperCase() + acType.slice(1)} AC
                       </Badge>
                     ))}
-                  </div>
-                </div>
-
-                {/* Warranty Details */}
-                <div>
-                  <h3 className="font-semibold mb-3">Warranty Coverage</h3>
-                  <div className="p-4 bg-muted rounded-lg">
-                    <p className="text-sm text-muted-foreground">
-                      {service.warranty.coverage}
-                    </p>
                   </div>
                 </div>
 
