@@ -10,9 +10,7 @@ import { cn } from '@/lib/utils';
 import {
   Clock,
   Shield,
-  AlertTriangle,
   Users,
-  ShieldCheck,
   MapPin,
   CheckCircle,
   DollarSign,
@@ -96,28 +94,6 @@ const FEATURES = [
     stat: '5000+',
     statLabel: 'Customers',
     badge: null,
-  },
-  {
-    id: 'warranty',
-    title: 'Comprehensive Warranty',
-    description: 'Up to 1 year warranty on installations and 6 months on repairs with genuine parts',
-    icon: ShieldCheck,
-    color: 'text-indigo-600',
-    bgColor: 'bg-indigo-50',
-    hoverColor: 'group-hover:bg-indigo-100',
-    stat: '1 Year',
-    statLabel: 'Warranty',
-    badge: {
-      text: 'Extended Warranty',
-      hoverContent: {
-        title: 'Warranty Coverage Details',
-        details: [
-          '1 year full warranty on new installations and replacement parts',
-          '6 months warranty on all repair work with genuine OEM components'
-        ],
-        credentials: ['Parts Warranty', 'Labor Guarantee', 'Service Protection']
-      }
-    },
   },
   {
     id: 'coverage',

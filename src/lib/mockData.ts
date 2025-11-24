@@ -43,39 +43,9 @@ export const MOCK_SERVICES: Service[] = [
       'Refrigerant level check',
       'Electrical connection check',
       'Performance optimization',
-      '30-day service warranty',
     ],
     isEmergency: false,
     availableFor: ['window', 'split', 'tower', 'portable'] as ACType[],
-    warranty: {
-      duration: 30,
-      coverage: 'Service warranty covering all maintenance work performed',
-    },
-  },
-  {
-    id: `srv_${serviceIdCounter++}`,
-    name: 'Premium AC Service',
-    description:
-      'Comprehensive AC maintenance with deep cleaning, chemical wash, and annual maintenance plan',
-    price: { min: 899, max: 1299, currency: 'INR' },
-    duration: 120,
-    category: 'maintenance' as ServiceCategory,
-    features: [
-      'Complete system deep clean',
-      'Chemical coil wash',
-      'Filter replacement',
-      'Gas pressure check',
-      'Thermostat calibration',
-      'Drainage system cleaning',
-      '90-day service warranty',
-      'Annual maintenance plan',
-    ],
-    isEmergency: false,
-    availableFor: ['window', 'split', 'central', 'cassette'] as ACType[],
-    warranty: {
-      duration: 90,
-      coverage: 'Comprehensive warranty covering parts and service',
-    },
   },
   {
     id: `srv_${serviceIdCounter++}`,
@@ -88,10 +58,8 @@ export const MOCK_SERVICES: Service[] = [
     features: [
       '4 scheduled maintenance visits',
       'Priority emergency support',
-      '20% discount on repairs',
       'Free filter replacements',
       'Gas top-up included',
-      'Extended warranty coverage',
       '24/7 helpline support',
     ],
     isEmergency: false,
@@ -102,10 +70,6 @@ export const MOCK_SERVICES: Service[] = [
       'cassette',
       'tower',
     ] as ACType[],
-    warranty: {
-      duration: 365,
-      coverage: 'Annual comprehensive coverage with parts and labor',
-    },
   },
 
   // Cleaning Services
@@ -127,10 +91,6 @@ export const MOCK_SERVICES: Service[] = [
     ],
     isEmergency: false,
     availableFor: ['window', 'split', 'cassette'] as ACType[],
-    warranty: {
-      duration: 30,
-      coverage: 'Cleaning service warranty',
-    },
   },
   {
     id: `srv_${serviceIdCounter++}`,
@@ -146,14 +106,9 @@ export const MOCK_SERVICES: Service[] = [
       'Anti-microbial treatment',
       'Complete system sanitization',
       'Performance restoration',
-      '60-day warranty',
     ],
     isEmergency: false,
     availableFor: ['split', 'central', 'cassette'] as ACType[],
-    warranty: {
-      duration: 60,
-      coverage: 'Chemical wash service warranty with performance guarantee',
-    },
   },
 
   // Repair Services
@@ -162,7 +117,6 @@ export const MOCK_SERVICES: Service[] = [
     name: 'AC Diagnostic Service',
     description:
       'Complete diagnostic check to identify AC problems with detailed report',
-    price: { min: 199, currency: 'INR' },
     duration: 45,
     category: 'repair' as ServiceCategory,
     features: [
@@ -181,33 +135,23 @@ export const MOCK_SERVICES: Service[] = [
       'tower',
       'portable',
     ] as ACType[],
-    warranty: {
-      duration: 7,
-      coverage: 'Diagnostic service warranty',
-    },
   },
   {
     id: `srv_${serviceIdCounter++}`,
     name: 'Minor AC Repair',
     description:
-      'Quick fixes for common AC issues like filter problems, minor leaks, and electrical issues',
-    price: { min: 799, max: 1299, currency: 'INR' },
+      'Quick fixes for common AC issues like filter problems and electrical issues',
+    price: { min: 599, max: 999, currency: 'INR' },
     duration: 75,
     category: 'repair' as ServiceCategory,
     features: [
       'Filter replacement',
-      'Minor leak repair',
       'Electrical connection fix',
       'Remote control repair',
       'Basic part replacement',
-      '30-day parts warranty',
     ],
     isEmergency: false,
     availableFor: ['window', 'split', 'tower', 'portable'] as ACType[],
-    warranty: {
-      duration: 30,
-      coverage: 'Parts and labor warranty for repair work',
-    },
   },
   {
     id: `srv_${serviceIdCounter++}`,
@@ -223,21 +167,16 @@ export const MOCK_SERVICES: Service[] = [
       'Cooling system overhaul',
       'Gas charging',
       'Major component replacement',
-      '90-day comprehensive warranty',
     ],
     isEmergency: false,
     availableFor: ['window', 'split', 'central', 'cassette'] as ACType[],
-    warranty: {
-      duration: 90,
-      coverage: 'Comprehensive warranty covering all repaired components',
-    },
   },
   {
     id: `srv_${serviceIdCounter++}`,
     name: 'Gas Refilling Service',
     description:
-      'Professional refrigerant gas refilling with leak detection and system optimization',
-    price: { min: 1299, max: 2499, currency: 'INR' },
+      'Professional refrigerant gas refilling with leak detection and system optimization. Price varies based on gas type (R32, R22, 410A)',
+    price: { min: 2199, max: 3199, currency: 'INR' },
     duration: 90,
     category: 'repair' as ServiceCategory,
     features: [
@@ -246,14 +185,10 @@ export const MOCK_SERVICES: Service[] = [
       'Gas evacuation',
       'Fresh gas filling',
       'Performance testing',
-      '60-day gas warranty',
+      'Supports R32, R22, 410A gas types',
     ],
     isEmergency: false,
     availableFor: ['window', 'split', 'central', 'cassette'] as ACType[],
-    warranty: {
-      duration: 60,
-      coverage: 'Gas refilling warranty with leak protection',
-    },
   },
 
   // Installation Services
@@ -262,30 +197,24 @@ export const MOCK_SERVICES: Service[] = [
     name: 'Window AC Installation',
     description:
       'Complete window AC installation with proper mounting, electrical work, and testing',
-    price: { min: 1999, max: 2999, currency: 'INR' },
+    price: { min: 999, currency: 'INR' },
     duration: 120,
     category: 'installation' as ServiceCategory,
     features: [
       'Professional mounting',
       'Electrical wiring',
-      'Window bracket installation',
       'Safety testing',
       'Performance check',
-      '1-year installation warranty',
     ],
     isEmergency: false,
     availableFor: ['window'] as ACType[],
-    warranty: {
-      duration: 365,
-      coverage: 'Installation warranty covering mounting and electrical work',
-    },
   },
   {
     id: `srv_${serviceIdCounter++}`,
     name: 'Split AC Installation',
     description:
       'Professional split AC installation with copper piping, electrical setup, and commissioning',
-    price: { min: 2999, max: 4499, currency: 'INR' },
+    price: { min: 999, max: 1499, currency: 'INR' },
     duration: 180,
     category: 'installation' as ServiceCategory,
     features: [
@@ -293,23 +222,16 @@ export const MOCK_SERVICES: Service[] = [
       'Outdoor unit installation',
       'Copper piping work',
       'Electrical connections',
-      'Gas charging',
       'System commissioning',
-      '2-year installation warranty',
     ],
     isEmergency: false,
     availableFor: ['split'] as ACType[],
-    warranty: {
-      duration: 730,
-      coverage: 'Comprehensive installation warranty',
-    },
   },
   {
     id: `srv_${serviceIdCounter++}`,
     name: 'Central AC Installation',
     description:
-      'Complete central AC system installation with ductwork, electrical setup, and commissioning',
-    price: { min: 9999, max: 19999, currency: 'INR' },
+      'Complete central AC system installation with ductwork, electrical setup, and commissioning. Rate determined after site visit',
     duration: 480,
     category: 'installation' as ServiceCategory,
     features: [
@@ -319,14 +241,10 @@ export const MOCK_SERVICES: Service[] = [
       'Electrical setup',
       'Zoning configuration',
       'Complete commissioning',
-      '3-year installation warranty',
+      'Rate after site visit',
     ],
     isEmergency: false,
     availableFor: ['central'] as ACType[],
-    warranty: {
-      duration: 1095,
-      coverage: 'Complete central AC installation warranty',
-    },
   },
 
   // Emergency Services
@@ -335,7 +253,7 @@ export const MOCK_SERVICES: Service[] = [
     name: '24/7 Emergency Repair',
     description:
       'Round-the-clock emergency AC repair service with rapid response team',
-    price: { min: 599, max: 1999, currency: 'INR' },
+    price: { min: 999, max: 2499, currency: 'INR' },
     duration: 60,
     category: 'emergency' as ServiceCategory,
     features: [
@@ -355,33 +273,6 @@ export const MOCK_SERVICES: Service[] = [
       'tower',
       'portable',
     ] as ACType[],
-    warranty: {
-      duration: 15,
-      coverage: 'Emergency repair warranty',
-    },
-  },
-  {
-    id: `srv_${serviceIdCounter++}`,
-    name: 'Emergency Gas Leak Repair',
-    description:
-      'Immediate response for AC gas leaks with safety assessment and quick repair',
-    price: { min: 899, max: 2499, currency: 'INR' },
-    duration: 90,
-    category: 'emergency' as ServiceCategory,
-    features: [
-      'Immediate safety assessment',
-      'Leak detection and repair',
-      'Emergency gas evacuation',
-      'Temporary cooling solution',
-      '24/7 priority support',
-      'Safety certification',
-    ],
-    isEmergency: true,
-    availableFor: ['split', 'central', 'cassette'] as ACType[],
-    warranty: {
-      duration: 30,
-      coverage: 'Emergency gas leak repair warranty',
-    },
   },
 ];
 

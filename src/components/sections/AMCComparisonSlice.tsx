@@ -132,7 +132,7 @@ function DetailedComparisonSheet({
     'Bi-annual comprehensive servicing',
     'Priority emergency response',
     'Free minor repairs & adjustments',
-    'Genuine spare parts warranty',
+    'Genuine spare parts used',
     'Performance monitoring & reports',
     'Seasonal maintenance reminders',
     'Technician relationship continuity',
@@ -143,7 +143,6 @@ function DetailedComparisonSheet({
     'Single service appointment',
     'Standard response time',
     'Basic cleaning & maintenance',
-    'Limited warranty period',
     'No ongoing relationship',
     'Pay-per-service pricing'
   ];
@@ -449,7 +448,7 @@ export function AMCComparisonSlice({ className }: AMCComparisonSliceProps) {
                           </li>
                           <li className="flex items-start gap-2">
                             <CheckCircle className="w-4 h-4 text-green-600 mt-0.5 flex-shrink-0" />
-                            <span>Genuine spare parts with warranty</span>
+                            <span>Genuine spare parts used</span>
                           </li>
                         </ul>
                       </div>
