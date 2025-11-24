@@ -172,6 +172,9 @@ export function FeaturedServices({ className }: FeaturedServicesProps) {
         'Complete AC servicing including filter cleaning, coil maintenance, and performance optimization',
       category: 'maintenance',
       price: { min: SERVICE_PRICING.maintenance.basic, currency: 'INR' },
+      duration: 60,
+      isEmergency: false,
+      availableFor: ['window', 'split', 'tower', 'portable'] as ACType[],
       features: [
         'Filter Cleaning',
         'Coil Maintenance',
@@ -186,6 +189,9 @@ export function FeaturedServices({ className }: FeaturedServicesProps) {
         'Expert diagnosis and repair of all AC issues including cooling problems, electrical faults',
       category: 'repair',
       price: { min: SERVICE_PRICING.repair.minor, currency: 'INR' },
+      duration: 75,
+      isEmergency: false,
+      availableFor: ['window', 'split', 'tower', 'portable'] as ACType[],
       features: [
         'Free Diagnosis',
         'Genuine Parts',
@@ -200,6 +206,9 @@ export function FeaturedServices({ className }: FeaturedServicesProps) {
         'Professional installation of split, window, and central AC systems with warranty',
       category: 'installation',
       price: { min: SERVICE_PRICING.installation.split, currency: 'INR' },
+      duration: 180,
+      isEmergency: false,
+      availableFor: ['split'] as ACType[],
       features: [
         'Professional Installation',
         'Piping & Wiring',
@@ -214,6 +223,9 @@ export function FeaturedServices({ className }: FeaturedServicesProps) {
         'Thorough cleaning of AC units including chemical wash and sanitization',
       category: 'cleaning',
       price: { min: SERVICE_PRICING.cleaning.deep, currency: 'INR' },
+      duration: 90,
+      isEmergency: false,
+      availableFor: ['window', 'split', 'cassette'] as ACType[],
       features: [
         'Chemical Wash',
         'Sanitization',
@@ -227,6 +239,9 @@ export function FeaturedServices({ className }: FeaturedServicesProps) {
       description: 'Round-the-clock emergency AC repair service across Patna',
       category: 'emergency',
       price: { min: SERVICE_PRICING.emergency.callout, currency: 'INR' },
+      duration: 60,
+      isEmergency: true,
+      availableFor: ['window', 'split', 'central', 'cassette', 'tower', 'portable'] as ACType[],
       features: [
         '24/7 Availability',
         'Quick Response',
@@ -241,6 +256,9 @@ export function FeaturedServices({ className }: FeaturedServicesProps) {
         'Professional refrigerant gas refilling and leak detection service',
       category: 'maintenance',
       price: { min: 1299, currency: 'INR' },
+      duration: 90,
+      isEmergency: false,
+      availableFor: ['window', 'split', 'central', 'cassette'] as ACType[],
       features: [
         'Leak Detection',
         'Quality Refrigerant',
